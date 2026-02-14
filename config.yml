@@ -1,0 +1,12 @@
+# chemin des données
+raw_data_path: "datasets/raw_data/iris.data"
+processed_data_path: "datasets/processed/processed_iris.csv"
+
+# test/train split
+test_size: 0.2
+random_state: 42
+
+# modèle
+model_path: "iris_model.pkl"
+
+n_estimators: 100
